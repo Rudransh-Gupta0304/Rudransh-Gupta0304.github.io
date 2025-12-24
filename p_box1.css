@@ -1,0 +1,240 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;              
+    font-family: Arial, sans-serif;     
+}
+
+
+.header1{
+    height: 60px;
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.head-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover ;
+    height: 50px;
+    width:100%; 
+}
+
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+.first_add{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 20px;
+}
+.second_add{
+    font-size: 1rem;
+    color: white;
+    margin-left: 1px;
+}
+i{
+    color: white;
+}
+.icon{
+    display: flex;
+}
+
+
+.searchbar{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #cccccc;
+    border-radius: 3px;
+    width: 900px;
+    height: 40px;
+}
+.search-select{
+    width: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.searchInput{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.searchIcon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    background-color: #ff9946;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.searchbar:hover{
+    border: 2px solid orange;
+}
+
+
+.signIn{
+    color: white;
+    font-size:0.85rem;
+}
+.nav-sign{
+    color: white;
+    font-weight: 800;
+}
+
+.cart i {
+    font-size: 30px;
+}
+.cart{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.header2{
+    height: 40px;
+    background-color: #ff9946;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.menu-option {
+    font-size: 1.1rem; 
+    font-weight: 700; 
+}
+.menu-option i{
+    color: black;
+}
+.header-option p{
+    display: inline ;
+    margin-left: 15px;
+}
+.header-option{
+    width: 95%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+
+.header-part3{
+    background-color:white;
+}
+.header3{
+    height:2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+}
+.option-header{
+    border-radius:.4rem;
+    background-color: rgb(239, 238, 238);
+    border: none;
+    margin-right: 2rem;
+    height: 1.75rem ;
+    width: 9%;
+}
+
+
+.main-container {
+    display: flex;
+    background-color: #f3f3f3;
+    padding: 0.5rem;
+}
+
+
+.filters {
+    width: 220px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.filters h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.filters label {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+.products {
+    flex: 1;
+    margin-left: 8px;
+}
+
+
+.product-card {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.product-card img {
+    width: 180px;
+    height: 200px;
+    object-fit: contain;      
+    display: block;
+}
+
+
+.product-info {
+    margin-left: 25px;
+    flex: 1;                 
+}
+.product-info h4 {
+    margin: 0;
+    font-size: 18px;
+}
+.product-info p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+.rating {
+    color: #ffa41c;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b12704;
+}
+
+
+.product-info button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.product-info button:hover {
+    background-color: #f7ca00;
+}
