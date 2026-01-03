@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header1{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.first_add{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 20px;
+}
+.second_add{
+    font-size: 1rem;
+    color: white;
+}
+.icon{
+    display: flex;
+}
+i{
+    color: white;
+}
+
+.searchbar{
+    display: flex;
+    background-color: #cccccc;
+    border-radius: 3px;
+    width: 900px;
+    height: 40px;
+}
+.search-select{
+    width: 50px;
+    border: none;
+}
+.searchInput{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.searchIcon{
+    width: 45px;
+    background-color: #ff9946;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar:hover{
+    border: 2px solid orange;
+}
+
+.signIn{
+    color: white;
+    font-size: 0.85rem;
+}
+.nav-sign{
+    color: white;
+    font-weight: 800;
+}
+
+.cart{
+    color: white;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+}
+
+.header2{
+    height: 40px;
+    background-color: #ff9946;
+    display: flex;
+    align-items: center;
+}
+.menu-option{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.menu-option i{
+    color: black;
+}
+.header-option p{
+    display: inline;
+    margin-left: 15px;
+}
+.header-option{
+    width: 95%;
+}
+
+.header-part3{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.header3{
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.option-header{
+    border-radius: .4rem;
+    background-color: rgb(239, 238, 238);
+    border: none;
+    height: 1.75rem;
+    width: 9%;
+}
+
+.main-conatiner{
+    display: flex;
+    gap: 15px;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+
+.filters{
+    width: 220px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+.filters h3{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.filters label{
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.products{
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-card.vertical{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.product-card.vertical img{
+    width: 220px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.product-info h4{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.desc{
+    color: #565959;
+    font-size: 14px;
+}
+
+.price{
+    color: #b12704;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-info button{
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
